@@ -3,6 +3,7 @@
 #include "helpbutton.h"
 #include <QClipboard>
 #include <qmessagebox.h>
+#include <QFile>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -10,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     HelpButton *helpButton = new HelpButton();
-    ui->gridLayout->addWidget(helpButton, 0, 5);
+    ui->gridLayout->addWidget(helpButton, 0, 8);
 }
 
 MainWindow::~MainWindow()
@@ -27,4 +28,21 @@ void MainWindow::on_copyClipboard_clicked()
 void MainWindow::on_reset_clicked()
 {
     ui->output->setText("");
+}
+
+void MainWindow::on_saveToFileBtn_clicked()
+{
+    QString filename = "res.txt";
+    QFile file(filename);
+    if (file.open(QIODevice::ReadWrite)) {
+        QTextStream stream(&file);
+        stream << ui->output->text() << '\n';
+    }
+
+    QMessageBox success(this);
+    success.setWindowTitle("Success");
+    success.setText("File successfully created!");
+    success.setStandardButtons(QMessageBox::Ok);
+
+    success.exec();
 }

@@ -30,6 +30,439 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="0">
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>120</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="9" column="2" colspan="5">
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Preferred</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="7">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>120</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="5" column="2" colspan="5">
+      <widget class="QComboBox" name="reflector_choice">
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <property name="placeholderText">
+        <string>Choose a reflector</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Reflector A</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Reflector B</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Reflector C</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="11" column="1" colspan="7">
+      <layout class="QGridLayout" name="KEYBOARD">
+       <item row="1" column="2">
+        <widget class="QPushButton" name="iS">
+         <property name="text">
+          <string>S</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="8">
+        <widget class="QPushButton" name="iO">
+         <property name="text">
+          <string>O</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6">
+        <widget class="QPushButton" name="iU">
+         <property name="text">
+          <string>U</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="iY">
+         <property name="text">
+          <string>Y</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QPushButton" name="iF">
+         <property name="text">
+          <string>F</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QPushButton" name="iX">
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QPushButton" name="iB">
+         <property name="text">
+          <string>B</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="7">
+        <widget class="QPushButton" name="iJ">
+         <property name="text">
+          <string>J</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="iE">
+         <property name="text">
+          <string>E</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="7">
+        <widget class="QPushButton" name="iM">
+         <property name="text">
+          <string>M</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="iP">
+         <property name="text">
+          <string>P</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <widget class="QPushButton" name="iZ">
+         <property name="text">
+          <string>Z</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="QPushButton" name="iH">
+         <property name="text">
+          <string>H</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3" colspan="3">
+        <widget class="QPushButton" name="iSpace">
+         <property name="text">
+          <string>_</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="iQ">
+         <property name="text">
+          <string>Q</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QPushButton" name="iN">
+         <property name="text">
+          <string>N</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QPushButton" name="iA">
+         <property name="text">
+          <string>A</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="7">
+        <widget class="QPushButton" name="iI">
+         <property name="text">
+          <string>I</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="8">
+        <widget class="QPushButton" name="iL">
+         <property name="text">
+          <string>L</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QPushButton" name="iG">
+         <property name="text">
+          <string>G</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QPushButton" name="iC">
+         <property name="text">
+          <string>C</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QPushButton" name="iV">
+         <property name="text">
+          <string>V</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QPushButton" name="iT">
+         <property name="text">
+          <string>T</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="8">
+        <widget class="QPushButton" name="iK">
+         <property name="text">
+          <string>K</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="iD">
+         <property name="text">
+          <string>D</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="iW">
+         <property name="text">
+          <string>W</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QPushButton" name="iR">
+         <property name="text">
+          <string>R</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="8">
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>120</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="6" column="2" colspan="5">
+      <spacer name="verticalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Preferred</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="13" column="1" rowspan="2">
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Preferred</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>60</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="1" column="2" colspan="5">
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>ROTORS SETUP</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2" colspan="5">
+      <layout class="QGridLayout" name="ROTORS">
+       <item row="3" column="3">
+        <widget class="QPushButton" name="nextB">
+         <property name="text">
+          <string>NEXT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QPushButton" name="nextC">
+         <property name="text">
+          <string>NEXT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="prevB">
+         <property name="text">
+          <string>PREV</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="rotorC">
+         <property name="text">
+          <string>A</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLineEdit" name="rotorA">
+         <property name="text">
+          <string>A</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="prevC">
+         <property name="text">
+          <string>PREV</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QPushButton" name="nextA">
+         <property name="text">
+          <string>NEXT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QPushButton" name="prevA">
+         <property name="text">
+          <string>PREV</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="rotorB">
+         <property name="text">
+          <string>A</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="4" column="2" colspan="5">
+      <widget class="QLabel" name="label_5">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>REFLECTORS SETUP</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
      <item row="2" column="1">
       <spacer name="horizontalSpacer_3">
        <property name="orientation">
@@ -46,7 +479,54 @@
        </property>
       </spacer>
      </item>
-     <item row="8" column="1" colspan="4">
+     <item row="10" column="2" colspan="5">
+      <widget class="QLabel" name="label_4">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>INPUT KEYBOARD</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="5">
+      <widget class="QPushButton" name="reset">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>❌</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2" colspan="5">
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>OUTPUT LAMPS</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1" colspan="7">
       <layout class="QGridLayout" name="LEDPanel">
        <item row="2" column="0">
         <widget class="QPushButton" name="P">
@@ -388,129 +868,7 @@
        </item>
       </layout>
      </item>
-     <item row="12" column="1" rowspan="2">
-      <spacer name="verticalSpacer_2">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Preferred</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>60</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="10" column="2" colspan="2">
-      <widget class="QLabel" name="label_4">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>INPUT KEYBOARD</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="2" colspan="2">
-      <widget class="QComboBox" name="reflector_choice">
-       <property name="currentIndex">
-        <number>0</number>
-       </property>
-       <property name="placeholderText">
-        <string>Choose a reflector</string>
-       </property>
-       <item>
-        <property name="text">
-         <string>Reflector A</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Reflector B</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Reflector C</string>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item row="2" column="5">
-      <spacer name="horizontalSpacer_4">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>120</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="6" column="2" colspan="2">
-      <spacer name="verticalSpacer_4">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Preferred</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>40</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="9" column="2" colspan="2">
-      <spacer name="verticalSpacer_3">
-       <property name="orientation">
-        <enum>Qt::Vertical</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Preferred</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>20</width>
-         <height>40</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="12" column="3" rowspan="2">
-      <widget class="QPushButton" name="copyClipboard">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="cursor">
-        <cursorShape>PointingHandCursor</cursorShape>
-       </property>
-       <property name="text">
-        <string>📋</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="2" colspan="2">
+     <item row="0" column="2" colspan="5">
       <widget class="QLabel" name="label">
        <property name="font">
         <font>
@@ -536,7 +894,7 @@
        </property>
       </widget>
      </item>
-     <item row="12" column="2" rowspan="2">
+     <item row="14" column="4">
       <widget class="QLineEdit" name="output">
        <property name="baseSize">
         <size>
@@ -558,377 +916,26 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="2" colspan="2">
-      <layout class="QGridLayout" name="ROTORS">
-       <item row="3" column="3">
-        <widget class="QPushButton" name="nextB">
-         <property name="text">
-          <string>NEXT</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="2">
-        <widget class="QPushButton" name="nextC">
-         <property name="text">
-          <string>NEXT</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="3">
-        <widget class="QPushButton" name="prevB">
-         <property name="text">
-          <string>PREV</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QLineEdit" name="rotorC">
-         <property name="text">
-          <string>A</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="4">
-        <widget class="QLineEdit" name="rotorA">
-         <property name="text">
-          <string>A</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="2">
-        <widget class="QPushButton" name="prevC">
-         <property name="text">
-          <string>PREV</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="4">
-        <widget class="QPushButton" name="nextA">
-         <property name="text">
-          <string>NEXT</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="4">
-        <widget class="QPushButton" name="prevA">
-         <property name="text">
-          <string>PREV</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="3">
-        <widget class="QLineEdit" name="rotorB">
-         <property name="text">
-          <string>A</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-         <property name="readOnly">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item row="4" column="2" colspan="2">
-      <widget class="QLabel" name="label_5">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>REFLECTORS SETUP</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="11" column="1" colspan="4">
-      <layout class="QGridLayout" name="KEYBOARD">
-       <item row="1" column="2">
-        <widget class="QPushButton" name="iS">
-         <property name="text">
-          <string>S</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="8">
-        <widget class="QPushButton" name="iO">
-         <property name="text">
-          <string>O</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="6">
-        <widget class="QPushButton" name="iU">
-         <property name="text">
-          <string>U</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="QPushButton" name="iY">
-         <property name="text">
-          <string>Y</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="4">
-        <widget class="QPushButton" name="iF">
-         <property name="text">
-          <string>F</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="2">
-        <widget class="QPushButton" name="iX">
-         <property name="text">
-          <string>X</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="5">
-        <widget class="QPushButton" name="iB">
-         <property name="text">
-          <string>B</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="7">
-        <widget class="QPushButton" name="iJ">
-         <property name="text">
-          <string>J</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="2">
-        <widget class="QPushButton" name="iE">
-         <property name="text">
-          <string>E</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="7">
-        <widget class="QPushButton" name="iM">
-         <property name="text">
-          <string>M</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="0">
-        <widget class="QPushButton" name="iP">
-         <property name="text">
-          <string>P</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="5">
-        <widget class="QPushButton" name="iZ">
-         <property name="text">
-          <string>Z</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="6">
-        <widget class="QPushButton" name="iH">
-         <property name="text">
-          <string>H</string>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="3" colspan="3">
-        <widget class="QPushButton" name="iSpace">
-         <property name="text">
-          <string>_</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="0">
-        <widget class="QPushButton" name="iQ">
-         <property name="text">
-          <string>Q</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="6">
-        <widget class="QPushButton" name="iN">
-         <property name="text">
-          <string>N</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1">
-        <widget class="QPushButton" name="iA">
-         <property name="text">
-          <string>A</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="7">
-        <widget class="QPushButton" name="iI">
-         <property name="text">
-          <string>I</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="8">
-        <widget class="QPushButton" name="iL">
-         <property name="text">
-          <string>L</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="5">
-        <widget class="QPushButton" name="iG">
-         <property name="text">
-          <string>G</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="3">
-        <widget class="QPushButton" name="iC">
-         <property name="text">
-          <string>C</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="4">
-        <widget class="QPushButton" name="iV">
-         <property name="text">
-          <string>V</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="4">
-        <widget class="QPushButton" name="iT">
-         <property name="text">
-          <string>T</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="8">
-        <widget class="QPushButton" name="iK">
-         <property name="text">
-          <string>K</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="3">
-        <widget class="QPushButton" name="iD">
-         <property name="text">
-          <string>D</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QPushButton" name="iW">
-         <property name="text">
-          <string>W</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="3">
-        <widget class="QPushButton" name="iR">
-         <property name="text">
-          <string>R</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item row="1" column="2" colspan="2">
-      <widget class="QLabel" name="label_2">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>ROTORS SETUP</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="0">
-      <spacer name="horizontalSpacer_5">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>120</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="2" column="4">
-      <spacer name="horizontalSpacer_2">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>120</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
-     <item row="7" column="2" colspan="2">
-      <widget class="QLabel" name="label_3">
-       <property name="font">
-        <font>
-         <family>Consolas</family>
-         <pointsize>12</pointsize>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>OUTPUT LAMPS</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="12" column="4" rowspan="2">
-      <widget class="QPushButton" name="reset">
+     <item row="14" column="6">
+      <widget class="QPushButton" name="copyClipboard">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="text">
-        <string>❌</string>
+        <string>📋</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="7">
+      <widget class="QPushButton" name="saveToFileBtn">
+       <property name="text">
+        <string>Save to file</string>
        </property>
       </widget>
      </item>

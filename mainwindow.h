@@ -86,6 +86,8 @@ private slots:
     void on_copyClipboard_clicked();
     void on_reset_clicked();
 
+    void on_saveToFileBtn_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
